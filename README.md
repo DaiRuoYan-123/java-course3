@@ -36,6 +36,52 @@
 
 3.创建博士研究生类实现两个接口，用implements关键词实现接口。再重写接口中的两个方法。
 
-4.
+4.同时在博士研究生类加上姓名、性别、年龄、院系、每学期学费、每月薪水等属性，使用Object根类的toString（）方法,将在相关对象的信息输出中。
+
+5.在测试类中采用Scanner类输入姓名，学费，薪水等信息实现运行时交互式输入。
+
+6.采用if（）函数判断该生应缴纳税额在哪个阶段，进行相应的计算。
+
+7.用于try-catch语句判断语句是否异常，发在输入属性那段语句中，判断所输入的数据是否符合该相应的类型。
+
+## 核心代码
+
+1.用interface关键词说明接口并在接口体中创建两个抽象方法。
+```
+public interface Studentmanagement {
+	public int getFee();//查询学费
+	public void setFee(int m1);//缴纳学费
+}
+```
+2.该非抽象类中实现接口，进行方法重写
+```
+	public void setFee(int m1){     
+		 fee=m1;   
+		 }    
+	public int getFee(){      
+		 return fee;  
+		 }   
+	 public void setPay(int m){    
+		 pay=m;  
+		 }     
+	 public int getPay()  {     
+		 return pay; 
+		 }
+ ```
+ 3.用采用Scanner类输入姓名等属性，并将输入变量按照相应的方式定义，用try-catch语句对该语句进行异常处理。
+ ```
+ Scanner console=new Scanner(System.in); //从标准输入设备（一般是键盘）中读取数据
+			 try {
+			 System.out.println("请输入你的姓名:");
+		     String na = console.nextLine();//字符类型的输入方式
+		     System.out.println("请输入你的性别:");
+		     String se = console.nextLine();//字符类型的输入方式
+   ```
+       }catch(Exception e) {
+		        	 System.out.println("输入数据错误！");
+		        	 }
+
+## 运行结果
 
 
+   
