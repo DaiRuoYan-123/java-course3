@@ -83,5 +83,18 @@ public interface Studentmanagement {
 
 ## 运行结果
 
+![a](https://github.com/DaiRuoYan-123/java-course3/blob/main/598d8716cd046dcc00b791e39d123e6.png)
+
+![b](https://github.com/DaiRuoYan-123/java-course3/blob/main/33946ee47bc9790a7feb91f80873f84.png)
+
+![c](https://github.com/DaiRuoYan-123/java-course3/blob/main/991f345976be093b73c8fe0fd637724.png)
+
+## 实验感想
+
+通过实验设计一个类接两个接口，熟悉如何声明一个接口，也明白可以用implements关键词实现两个接口，并在类中重写这个接口的所有方法，
+
+编写程序过程中熟悉while（），if（）语句分别进行循环和判断，也通过网络和书本的学习，提前了解并采用Scanner类实现运行时交互式输入，使程序更加友好。
+
+同时在实验中也遇到许多难题如最先如何设计构造抽象函数实现所要求的任务，希望在接下来的学习学到更多的知识。
 
    
